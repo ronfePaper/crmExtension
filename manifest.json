@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Keywords extractor",
+  "description": "A simple keywords extractor of the current webpage",
+  "version": "0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "关键词？"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
